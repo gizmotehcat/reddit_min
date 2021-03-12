@@ -1,6 +1,6 @@
 # Wireframes
 link below:<br>
-[myApp](https://optimistic-colden-7c618b.netlify.app).
+[myApp](https://optimistic-colden-7c618b.netlify.app)
 # Tech used
 Reactjs<br>
 Jest & Enzyme for testing<br>
