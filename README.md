@@ -1,16 +1,16 @@
 # Wireframes
 link below:
-
+("https://optimistic-colden-7c618b.netlify.app "click me!").
 # Tech used
-Reactjs
-Jest & Enzyme for testing
+Reactjs<br>
+Jest & Enzyme for testing<br>
 
 # Features
--Users can use the application on any device (desktop to mobile)
--Users can search the data using terms
--Users can filter the data based on categories that are predefined
--Users are shown a detail view
--Cohesive design feature
+-Users can use the application on any device (desktop to mobile)<br>
+-Users can search the data using terms<br>
+-Users can filter the data based on categories that are predefined <br>
+-Users are shown a detail view <br>
+-Cohesive design feature <br>
 
 # Future work
-
+add expandable comments section below post.
