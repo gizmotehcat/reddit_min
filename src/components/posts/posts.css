@@ -1,0 +1,77 @@
+.post-container{
+    width: 60%;
+    min-height: 120px;
+    border: 1px solid rgb(209, 208, 208);
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 40px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "post-header"
+        "post-content"
+        "post-footer";
+}
+
+.post-container .post-header{
+    padding:20px;
+    align-self: center;
+    grid-area: post-header;
+    font-weight:700;    
+    font-size: 1.3em;
+    color: rgb(36, 35, 35)
+}
+
+.post-container .post-content{
+    padding: 20px;
+    font-size: 0.9em;
+    grid-area: post-content;
+    color: rgb(70, 69, 69);
+    overflow-wrap: anywhere;
+}
+
+.post-container .post-footer{
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-flex;
+    justify-content:space-between;
+    color: rgb(145, 143, 143);
+    font-size: 0.8em;
+}
+
+.post-container .post-footer div{
+    grid-area: post-footer;
+    margin-bottom: 2px;
+}
+
+.post-content img{
+    width: 100%;
+    margin: auto;
+}
+
+.post-comments-total:hover{
+    cursor: pointer;
+    color: rgb(90, 88, 88);;
+}
+
+@media only screen and (max-width: 700px) {
+    .post-container{
+        width: 90%;
+    }
+
+    .post-container .post-header{ 
+        font-size: 0.8em;
+    }
+
+    .post-container .post-footer{
+        font-size: 0.5em;
+    }
+}
+
+.hide{
+    display: none;
+}
